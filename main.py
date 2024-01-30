@@ -92,7 +92,7 @@ while True:
     cv.imshow("Bathrinarayana HCR gesture", image)
 
     # Close the Video if "q" key is pressed
-    if cv.waitKey(1) & 0xFF == ord(q):
+    if cv.waitKey(1) & 0xFF == ord('q'):
         break
 
 video.release()
